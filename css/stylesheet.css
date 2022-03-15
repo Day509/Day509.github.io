@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+h1{
+    color: gray;
+    border-bottom: 1px solid black;
+}
+
+aside{
+    border-right: 0.5px solid black;
+    width: 150px;
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+    color: blue;
+    cursor: pointer;
+}
+
+li{
+    position: relative;
+}
+
+li:hover{
+    background-color: rgba(255, 219, 214, 0.753);
+}
+
+li:hover > ul{
+    display: block;
+}
+
+li > ul > li{
+    padding-right: 20px;
+}
+
+li > ul > li:hover{
+    background-color: rgb(255, 155, 142);
+}
+
+li > ul{
+    position: absolute;
+    left: 110px;
+    top: 0;
+    padding-left: 1px;
+    display: none;
+}
+
+div{
+    display: inline-block;
+    width: 1000px;
+    padding-left: 50px;
+}
+
+p{
+    color: gray;
+}
