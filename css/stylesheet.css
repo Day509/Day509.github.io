@@ -17,9 +17,6 @@ li{
     list-style: none;
     color: blue;
     cursor: pointer;
-}
-
-li{
     position: relative;
 }
 
